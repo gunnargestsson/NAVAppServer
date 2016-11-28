@@ -1,0 +1,56 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+VB.NET NAV Application Server
+</name>
+</assembly>
+<members>
+<member name="T:NAV_Application_Server.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:NAV_Application_Server.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:NAV_Application_Server.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:NAV_Application_Server.NAVApp.NAVAppServer">
+<remarks/>
+</member>
+<member name="M:NAV_Application_Server.NAVApp.NAVAppServer.#ctor">
+<remarks/>
+</member>
+<member name="E:NAV_Application_Server.NAVApp.NAVAppServer.ExecuteCodeunitCompleted">
+<remarks/>
+</member>
+<member name="M:NAV_Application_Server.NAVApp.NAVAppServer.ExecuteCodeunit(System.Int32,System.Boolean)">
+<remarks/>
+</member>
+<member name="M:NAV_Application_Server.NAVApp.NAVAppServer.ExecuteCodeunitAsync(System.Int32,System.Boolean)">
+<remarks/>
+</member>
+<member name="M:NAV_Application_Server.NAVApp.NAVAppServer.ExecuteCodeunitAsync(System.Int32,System.Boolean,System.Object)">
+<remarks/>
+</member>
+<member name="M:NAV_Application_Server.NAVApp.NAVAppServer.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:NAV_Application_Server.NAVApp.ExecuteCodeunitCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NAV_Application_Server.NAVApp.ExecuteCodeunitCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NAV_Application_Server.NAVApp.ExecuteCodeunitCompletedEventArgs.Result">
+<remarks/>
+</member>
+</members>
+</doc>

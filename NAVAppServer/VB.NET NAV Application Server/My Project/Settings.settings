@@ -1,0 +1,33 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="NAVAppServer" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://skyrr-sql-kro-1:7047/DynamicsNAVKappi/WS/S%E9rkerfapr%F3fun%20G%DEG/Codeunit/NAVAppServer</Value>
+    </Setting>
+    <Setting Name="CodeunitID" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">81004</Value>
+    </Setting>
+    <Setting Name="LogMode" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="TimerInterval" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">90000</Value>
+    </Setting>
+    <Setting Name="LogFrequency" Type="System.TimeSpan" Scope="Application">
+      <Value Profile="(Default)">15:00:00</Value>
+    </Setting>
+    <Setting Name="SMTPHost" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">mail.skyrr.is</Value>
+    </Setting>
+    <Setting Name="FromAddress" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">gunnar@dynamics.is</Value>
+    </Setting>
+    <Setting Name="ToAddress" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">gunnar@dynamics.is</Value>
+    </Setting>
+    <Setting Name="RetryTimerInterval" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">45000</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

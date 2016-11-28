@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:tns="urn:microsoft-dynamics-schemas/codeunit/NAVAppServer" targetNamespace="urn:microsoft-dynamics-schemas/codeunit/NAVAppServer" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <schema elementFormDefault="qualified" targetNamespace="urn:microsoft-dynamics-schemas/codeunit/NAVAppServer" xmlns="http://www.w3.org/2001/XMLSchema">
+      <element name="ExecuteCodeunit">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="codeunitID" type="int" />
+            <element minOccurs="1" maxOccurs="1" name="log" type="boolean" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="ExecuteCodeunit_Result">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="return_value" type="boolean" />
+          </sequence>
+        </complexType>
+      </element>
+    </schema>
+  </types>
+  <message name="ExecuteCodeunit">
+    <part name="parameters" element="tns:ExecuteCodeunit" />
+  </message>
+  <message name="ExecuteCodeunit_Result">
+    <part name="parameters" element="tns:ExecuteCodeunit_Result" />
+  </message>
+  <portType name="NAVAppServer_Port">
+    <operation name="ExecuteCodeunit">
+      <input name="ExecuteCodeunit" message="tns:ExecuteCodeunit" />
+      <output name="ExecuteCodeunit_Result" message="tns:ExecuteCodeunit_Result" />
+    </operation>
+  </portType>
+  <binding name="NAVAppServer_Binding" type="tns:NAVAppServer_Port">
+    <binding transport="http://schemas.xmlsoap.org/soap/http" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    <operation name="ExecuteCodeunit">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/NAVAppServer:ExecuteCodeunit" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="ExecuteCodeunit">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="ExecuteCodeunit_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+  </binding>
+  <service name="NAVAppServer">
+    <port name="NAVAppServer_Port" binding="tns:NAVAppServer_Binding">
+      <address location="http://skyrr-sql-kro-1:7047/DynamicsNAVKappi/WS/S%C3%A9rkerfapr%C3%B3fun%20G%C3%9EG/Codeunit/NAVAppServer" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    </port>
+  </service>
+</definitions>

@@ -1,0 +1,13 @@
+C:\Users\k10273\Source\Workspaces\NAV 2009 Projects\NAVAppServer\VB.NET NAV Application Server\bin\Debug\VB.NET NAV Application Server.exe.config
+C:\Users\k10273\Source\Repos\NAVAppServer\NAVAppServer\VB.NET NAV Application Server\bin\Debug\VB.NET NAV Application Server.exe.config
+C:\Users\k10273\Source\Repos\NAVAppServer\NAVAppServer\VB.NET NAV Application Server\obj\Debug\VB.NET NAV Application Server.vbprojResolveAssemblyReference.cache
+C:\Users\k10273\Source\Repos\NAVAppServer\NAVAppServer\VB.NET NAV Application Server\obj\Debug\NAV_Application_Server.Resources.resources
+C:\Users\k10273\Source\Repos\NAVAppServer\NAVAppServer\VB.NET NAV Application Server\obj\Debug\NAV_Application_Server.NAVAppServer.resources
+C:\Users\k10273\Source\Repos\NAVAppServer\NAVAppServer\VB.NET NAV Application Server\obj\Debug\NAV_Application_Server.ProjectInstaller.resources
+C:\Users\k10273\Source\Repos\NAVAppServer\NAVAppServer\VB.NET NAV Application Server\obj\Debug\VB.NET NAV Application Server.vbproj.GenerateResource.Cache
+C:\Users\k10273\Source\Repos\NAVAppServer\NAVAppServer\VB.NET NAV Application Server\bin\Debug\VB.NET NAV Application Server.exe
+C:\Users\k10273\Source\Repos\NAVAppServer\NAVAppServer\VB.NET NAV Application Server\bin\Debug\VB.NET NAV Application Server.pdb
+C:\Users\k10273\Source\Repos\NAVAppServer\NAVAppServer\VB.NET NAV Application Server\bin\Debug\VB.NET NAV Application Server.xml
+C:\Users\k10273\Source\Repos\NAVAppServer\NAVAppServer\VB.NET NAV Application Server\obj\Debug\VB.NET NAV Application Server.exe
+C:\Users\k10273\Source\Repos\NAVAppServer\NAVAppServer\VB.NET NAV Application Server\obj\Debug\VB.NET NAV Application Server.xml
+C:\Users\k10273\Source\Repos\NAVAppServer\NAVAppServer\VB.NET NAV Application Server\obj\Debug\VB.NET NAV Application Server.pdb
